@@ -1,0 +1,133 @@
+.detail-header{
+  padding-left: 98px;
+  padding-right: 167px;
+  margin-bottom: 29px;
+}
+.links{
+  height: 70px;
+  background-color: #f4f4f4;
+}
+.menu-links{
+  text-align: center;
+  line-height: 70px;
+}
+
+.list{
+  display: inline-block;
+  padding-right: 25px;
+  padding-left: 10px;
+}
+
+.list:hover a{
+  color: #212121;
+}
+.list:active a{
+  color: #f68585;
+}
+
+.list a{
+  text-decoration: none;
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+}
+.list .act{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #212121;
+  letter-spacing: 1.8px;
+}
+.item-detail{
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  margin-top: 72px;
+  margin-left: 98px;
+  margin-right: 98px;
+  margin-bottom: 200px;
+}
+
+.price{
+  display: inline-block;
+  color: #212121;
+  font-weight: 300;
+  line-height: 48.02px;
+  font-size: 72px;
+  text-transform: uppercase;
+  margin-top: 32px;
+  margin-bottom: 26px;
+}
+.price .doolar {
+  font-size: 36px;
+  text-transform: none;
+}
+.exclusive-content-big-heading{
+  margin-bottom: 10px;
+}
+.description {
+  padding-top: 45px;
+}
+.mid {
+  display: block;
+  text-align: center;
+}
+.button{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 49px;
+  width: 510px;
+  height: 71px;
+  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 35px;
+  background-color: #f44336;
+  line-height: 71px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4.4px;
+}
+.button:hover {
+  background-color: green;
+}
+.button:active {
+  background-color: lightgreen;
+}
+.arrow{
+  padding-left: 10px;
+}
+
+.text-description{
+  display: block;
+  margin: 0 auto;
+  width: 501px;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+.small-image{
+  width: 230px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+.small-image a:hover{
+  outline: 1px solid #9c9c9c;
+}
+.trending-product-header{
+  margin-bottom: 71px;
+  padding-left: 98px;
+  padding-right: 98px;
+}
+.related-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  padding-left: 98px;
+  padding-right: 98px;
+  margin-bottom: 120px;
+}

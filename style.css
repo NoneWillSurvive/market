@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-tap-highlight-color: transparent;
 }
 body{
   font-family: 'Montserrat', sans-serif;
@@ -14,7 +15,7 @@ body{
   height: 800px;
   background-image: url("images/slider-img.jpg");
   padding-left: 98px;
-  padding-right: 98px;
+  padding-right: 167px;
 }
 .header {
   display: grid;
@@ -242,6 +243,7 @@ body{
 }
 .circle-button:active{
   background-color: #f1b7b7;
+  outline: none!important;
 }
 /*  обводка ссылки эксплор олл*/
 .btn-ghost:before,
